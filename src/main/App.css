@@ -1,0 +1,21 @@
+:root {
+  --nav-height:100px;
+  --content-height:100px;
+  --footer-height:40px;
+
+  --shadow : rgb(102, 99, 99);
+}
+.app {
+  margin: 0px;
+  display: grid;
+  grid-template-rows:
+      var(--nav-height)
+      1fr
+      var(--footer-height);
+  grid-template-areas:
+      "menu"
+      "content"
+      "footer";
+  height: 100vh;
+  background-color:white;
+}
