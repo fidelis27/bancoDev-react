@@ -6,15 +6,15 @@ import Navbar from 'react-bootstrap/Navbar'
 
 export default props =>
     <React.Fragment>
-        <Navbar className="menu" expand='lg'>
+        <Navbar className="menu mt-12"  >
 
             <Link className="navbar-brand" to="/">
                 <img src={logo} height="35" className="d-inline-block align-top" alt="Logo banco do DEV" title="Banco do dev" />
                 DevBank
-        </Link>
-            <Navbar.Toggle aria-controls="navbarBank" />
-            <Navbar.Collapse id="navbarBank">
-                <nav className="navbar-nav">
+           </Link>
+            {/* <Navbar.Toggle aria-controls="navbarBank" />
+            <Navbar.Collapse id="navbarBank"> */}
+                 <nav className="navbar-nav"> 
 
                     <Link className='nav-link' to="/">
                         <i className="fa fa-home"></i> Início
@@ -30,9 +30,9 @@ export default props =>
                         <i className="simulation"></i> Simulador
                     </Link>
 
-                </nav>
+                 </nav> 
 
-            </Navbar.Collapse>
+            {/* </Navbar.Collapse> */}
         </Navbar>
 
 

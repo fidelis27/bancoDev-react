@@ -1,5 +1,6 @@
 :root {
   --nav-height:100px;
+  --nav-height-small:150px;
   --content-height:100px;
   --footer-height:40px;
 
@@ -18,4 +19,17 @@
       "footer";
   height: 100vh;
   background-color:white;
+}
+
+@media(max-width: 576px) {
+  .app {
+      grid-template-rows:
+          var(--nav-height-small)
+          1fr
+          var(--footer-height);
+      grid-template-areas:
+          "menu"
+          "content"
+          "footer";
+  }
 }
