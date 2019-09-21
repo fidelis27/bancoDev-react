@@ -8,5 +8,8 @@ i {
     padding-left: 10px;
 
 }
-
-
+@media(max-width: 740px) {
+    .home{
+        display: none
+    }
+}

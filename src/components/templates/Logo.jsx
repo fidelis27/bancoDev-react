@@ -7,5 +7,5 @@ export default props =>
     <aside className="logo">
         <Link to="/" className="logo">
             <img src={Logo} alt="logo" />
-        </Link><h5 className="logo mt-3">DevBank</h5>
+        </Link><h5 className="hidden mt-3">DevBank</h5>
     </aside>

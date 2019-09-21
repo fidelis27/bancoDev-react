@@ -9,7 +9,7 @@ export default props =>
                  <nav className="navbar-nav"> 
 
                     <Link className='nav-link' to="/">
-                        <i className="fa fa-home"></i> Início
+                        <i className="fa fa-home home"></i> Início
                     </Link>
 
                     <Link className='nav-link' to="/about">
