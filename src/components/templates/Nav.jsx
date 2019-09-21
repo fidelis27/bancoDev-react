@@ -1,19 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Nav.css'
-import logo from '../../assets/img/logo.png'
 import Navbar from 'react-bootstrap/Navbar'
 
 export default props =>
     <React.Fragment>
-        <Navbar className="menu mt-12"  >
-
-            <Link className="navbar-brand" to="/">
-                <img src={logo} height="35" className="d-inline-block align-top" alt="Logo banco do DEV" title="Banco do dev" />
-                DevBank
-           </Link>
-            {/* <Navbar.Toggle aria-controls="navbarBank" />
-            <Navbar.Collapse id="navbarBank"> */}
+        <Navbar className="menu-area mt-12"  >
                  <nav className="navbar-nav"> 
 
                     <Link className='nav-link' to="/">
@@ -31,9 +23,11 @@ export default props =>
                     </Link>
 
                  </nav> 
+                 
 
             {/* </Navbar.Collapse> */}
         </Navbar>
+    
 
 
     </React.Fragment>
