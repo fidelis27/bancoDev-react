@@ -1,3 +1,11 @@
+Para execução do projeto é necessário uma servidor http para que seja feita as requisições Eu utilizei o node.js pra colaboração
+
+instalei o http-server npm i -g http-server
+
+Depois vai na pasta raiz do projeto e digite http-server . esse comando irá servir seu projeto
+
+O projeto inicial não é de minha autoria, apenas fiz uma adaptação na navegação O projeto original trazia a navegação em todas as pagínas A melhoria foi colocar a navegação apenas no index.hmtl E atraves de uma section, traz o conteudo de outras páginas dentro dela.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
